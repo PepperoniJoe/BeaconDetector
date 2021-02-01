@@ -49,6 +49,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		931B5EA425C7DAD400F1947B /* GitHub-Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "GitHub-Images";
+			sourceTree = "<group>";
+		};
 		93643B1E2568209B00027DE6 /* Root */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +112,8 @@
 		93CFF248255E273B00743674 = {
 			isa = PBXGroup;
 			children = (
+				931B5EA425C7DAD400F1947B /* GitHub-Images */,
+				931B5EA125C7DA2400F1947B /* LICENSE */,
 				93CFF253255E273B00743674 /* BeaconDetector */,
 				93CFF252255E273B00743674 /* Products */,
 			);
@@ -121,7 +130,6 @@
 		93CFF253255E273B00743674 /* BeaconDetector */ = {
 			isa = PBXGroup;
 			children = (
-				931B5EA125C7DA2400F1947B /* LICENSE */,
 				93643B302568871300027DE6 /* Data */,
 				93643B1E2568209B00027DE6 /* Root */,
 				93643B27256821F100027DE6 /* SwiftUI */,
