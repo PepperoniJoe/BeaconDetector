@@ -1,7 +1,6 @@
 # Beacon Detector
 An iOS app that can detect an iBeacon. This app acts as an example Museum app that will display details of an art exhibit when near the exhibit's beacon.
 
-# Beacon
 [![Xcode version](https://img.shields.io/badge/xcode-12%20-brightgreen)](https://developer.apple.com/xcode/)
 [![Language](https://img.shields.io/badge/swift-5.0-orange.svg)](https://developer.apple.com/swift)
 [![Language](https://img.shields.io/badge/swift-iOS14-orange.svg)](https://developer.apple.com/xcode/swift)
