@@ -10,7 +10,9 @@ An iOS app that can detect an iBeacon. This app acts as an example Museum app th
 
 **Technical Info:** \
 Xcode 12 project written in Swift 5 for iOS 14\
-Swift, CoreBluetooth, CoreLocation, UIKit, CAReplicatorLayer
+SwiftUI, CoreBluetooth, CoreLocation,
+
+[Beacon - companion app to acts as an iBeacon](https://github.com/PepperoniJoe/Beacon)
 
 **See Also:** \
 [Quickies - a variety of example iOS apps](https://github.com/PepperoniJoe/Quickies)\
