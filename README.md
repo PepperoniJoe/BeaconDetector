@@ -1,5 +1,5 @@
 # Beacon Detector
-An iOS app that can detect an iBeacon. This app acts as an example Museum app that will display details of an art exhibit when near the exhibit's beacon. Includes voice synthesis that reads exhibit details.
+An iOS app that can detect an iBeacon. This app acts as an example Museum app that will display details of an art exhibit when near the exhibit's beacon. Includes voice synthesis.
 
 [![Xcode version](https://img.shields.io/badge/xcode-12%20-brightgreen)](https://developer.apple.com/xcode/)
 [![Language](https://img.shields.io/badge/swift-5.0-orange.svg)](https://developer.apple.com/swift)
@@ -10,7 +10,7 @@ An iOS app that can detect an iBeacon. This app acts as an example Museum app th
 
 **Technical Info:** \
 Xcode 12 project written in Swift 5 for iOS 14\
-SwiftUI, CoreBluetooth, CoreLocation,
+SwiftUI, CoreBluetooth, CoreLocation, AVFoundation
 
 [Beacon - companion app to acts as an iBeacon](https://github.com/PepperoniJoe/Beacon)
 
