@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// Common view settings repeatedly used throughout the ContentView
 struct Standard: ViewModifier {
     func body(content: Content) -> some View {
         content
@@ -78,8 +79,8 @@ struct ContentView: View {
         
         Spacer()
             
-            .onChange(of: detector.titleString) { [detector] newState in
-                voiceSynthesizer.say(speaker: .gordon , phrase: detector.speach)
+            .onChange(of: detector.titleString) {  [weak detector] newState in
+                voiceSynthesizer.say(speaker: .gordon , phrase: detector?.speech)
             }
     }
 }

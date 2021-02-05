@@ -25,7 +25,7 @@ class Detector: NSObject, ObservableObject {
     @Published var alert            = K.emptyString
     @Published var exhibitTitle     = K.emptyString
     @Published var roomTitle        = K.emptyString
-    @Published var speach           = K.emptyString
+    @Published var speech: String?  = K.emptyString
     
     override init () {
         super.init()
@@ -95,7 +95,7 @@ extension Detector: CLLocationManagerDelegate {
             titleString     = K.dictExhibit[key]?.title ?? K.emptyString
             imageString     = K.dictExhibit[key]?.image ?? K.defaultImage
             textDescription = K.dictExhibit[key]?.description ?? K.emptyString
-            speach          = K.dictExhibit[key]?.speach ?? K.emptyString
+            speech          = K.dictExhibit[key]?.speach ?? K.emptyString
         } else {
             lastDistance = BeaconStatus.unknown.rawValue
         }

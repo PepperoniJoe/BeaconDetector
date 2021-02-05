@@ -8,6 +8,8 @@
 import Foundation
 import CoreLocation
 
+//MARK: Enums
+//// Status of beacon's location relative to the beacon detector(this app)
 enum BeaconStatus: String {
     case unknown   = "Unknown"
     case immediate = "Here"
@@ -15,6 +17,7 @@ enum BeaconStatus: String {
     case far       = "Far Away"
 }
 
+////  List of english speakers. 
 enum EnglishSpeakers : String {
     case catherine = "com.apple.ttsbundle.siri_female_en-AU_compact"
     case gordon    = "com.apple.ttsbundle.siri_male_en-AU_compact"
@@ -47,28 +50,8 @@ struct K {
     static var ok                         = "OK"
     static var alert                      = "Alert"
     static var locationNeeded             = "Location Services is needed to operate beacon detector."
-    
-//    /// English Speakers
-//    static let englishSpeakers: [(language: String, name: String, quality: String, identifier: String)] =
-//     [
-//     ("en-AU", Catherine, Default, com.apple.ttsbundle.siri_female_en-AU_compact),
-//     ("en-AU", Gordon, Default, com.apple.ttsbundle.siri_male_en-AU_compact),
-//     ("en-AU", Karen, Default, com.apple.ttsbundle.Karen-compact),
-//     ("en-GB", Arthur, Default, com.apple.ttsbundle.siri_male_en-GB_compact),
-//     ("en-GB", Daniel, Default, com.apple.ttsbundle.Daniel-compact),
-//     ("en-GB", Martha, Default, com.apple.ttsbundle.siri_female_en-GB_compact),
-//     (en-IE, Moira, Default, com.apple.ttsbundle.Moira-compact),
-//     (en-IN, Rishi, Default, com.apple.ttsbundle.Rishi-compact),
-//     (en-US, Aaron, Default, com.apple.ttsbundle.siri_male_en-US_compact),
-//     (en-US, Fred, Default, com.apple.speech.synthesis.voice.Fred),
-//     (en-US, Nicky, Default, com.apple.ttsbundle.siri_female_en-US_compact),
-//     (en-US, Samantha, Default, com.apple.ttsbundle.Samantha-compact),
-//    (en-ZA, Tessa, Default, com.apple.ttsbundle.Tessa-compact),
-//     act],
-//     (en-US, Name: Alex, Quality: Enhanced [com.apple.speech.voice.Alex)
-//      ]
 
-    ///Exhibits Data
+    ///Data for each Exhibit
     static let dictExhibit: [String : (exhibit: String, title: String, image: String, description: String, speach: String)] = [
         "1-1": ("William H. Johnson", "Farm Couple At Well", "Farm Couple At Well", "Artist: William H. Johnson, born Florence, South Carolina in 1901 - died Central Islip, New York in 1970\n\nType: Graphic Arts-Print\n\nDate: circa 1940-1941\n\nCredit: Smithsonian American Art Museum, Gift of the Harmon Foundation","Farm Couple At Well by artist William H. Johnson"),
         "1-2": ("William H. Johnson", "Jitterbug II", "Jitterbug II", "Artist: William H. Johnson\n\nType: Graphic Arts-Print\n\nDate: circa 1940-1941\n\nCredit: Smithsonian American Art Museum, Gift of the Harmon Foundation","Jitterbug 2 by artist William H. Johnson"),
