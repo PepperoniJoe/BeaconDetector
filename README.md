@@ -6,7 +6,9 @@ An iOS app that can detect an iBeacon. This app acts as an example Museum app th
 [![Language](https://img.shields.io/badge/swift-iOS14-orange.svg)](https://developer.apple.com/xcode/swift)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://mit-license.org)
 
-<img src="GitHub-Images/BeaconDetector.png" width="300">
+<img src="GitHub-Images/BD1.png" width="150">
+<img src="GitHub-Images/BD2.png" width="150">
+<img src="GitHub-Images/BD3.png" width="150">
 
 **Technical Info:** \
 Xcode 12 project written in Swift 5 for iOS 14\
