@@ -7,9 +7,9 @@ An iOS app that can detect an iBeacon. This app acts as an example museum app th
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://mit-license.org)
 
 <p float="left">
-<img src="GitHub-Images/BD1.png" width="270">
-<img src="GitHub-Images/BD2.png" width="270">
-<img src="GitHub-Images/BD3.png" width="270">
+<img src="GitHub-Images/BD1.png" width="250">
+<img src="GitHub-Images/BD2.png" width="250">
+<img src="GitHub-Images/BD3.png" width="250">
 </p>
 
 **Description:** \
