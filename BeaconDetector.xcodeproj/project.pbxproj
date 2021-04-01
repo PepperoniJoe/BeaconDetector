@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9311D22126157B1C008192E0 /* BD1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9311D22026157B1C008192E0 /* BD1.png */; };
+		9311D22426157B29008192E0 /* BD2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9311D22326157B29008192E0 /* BD2.png */; };
+		9311D22726157B31008192E0 /* BD3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9311D22626157B31008192E0 /* BD3.png */; };
 		931B5EA225C7DA2400F1947B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 931B5EA125C7DA2400F1947B /* LICENSE */; };
 		933945B8256F391800363788 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933945B7256F391800363788 /* Color.xcassets */; };
 		9351F0BB2573390B0009A798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9351F0BA2573390B0009A798 /* LaunchScreen.storyboard */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9311D22026157B1C008192E0 /* BD1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BD1.png; sourceTree = "<group>"; };
+		9311D22326157B29008192E0 /* BD2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BD2.png; sourceTree = "<group>"; };
+		9311D22626157B31008192E0 /* BD3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BD3.png; sourceTree = "<group>"; };
 		931B5EA125C7DA2400F1947B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		933945B7256F391800363788 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		9351F0BA2573390B0009A798 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +58,9 @@
 		931B5EA425C7DAD400F1947B /* GitHub-Images */ = {
 			isa = PBXGroup;
 			children = (
+				9311D22026157B1C008192E0 /* BD1.png */,
+				9311D22326157B29008192E0 /* BD2.png */,
+				9311D22626157B31008192E0 /* BD3.png */,
 			);
 			path = "GitHub-Images";
 			sourceTree = "<group>";
@@ -206,12 +215,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9311D22726157B31008192E0 /* BD3.png in Resources */,
 				931B5EA225C7DA2400F1947B /* LICENSE in Resources */,
 				933945B8256F391800363788 /* Color.xcassets in Resources */,
+				9311D22426157B29008192E0 /* BD2.png in Resources */,
 				93CFF25E255E273D00743674 /* Preview Assets.xcassets in Resources */,
 				9351F0BB2573390B0009A798 /* LaunchScreen.storyboard in Resources */,
 				93CFF25B255E273D00743674 /* Assets.xcassets in Resources */,
 				9388F642259EE347006D65D5 /* Exhibit.xcassets in Resources */,
+				9311D22126157B1C008192E0 /* BD1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
